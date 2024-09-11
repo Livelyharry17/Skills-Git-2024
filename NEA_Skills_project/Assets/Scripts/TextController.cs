@@ -29,6 +29,11 @@ public class TextController : MonoBehaviour
         livesCounter.text = "Lives: " + lives;
 
         gameTimer.text = "Time: " + Time.timeSinceLevelLoad.ToString("0.00");
+
+        if(totalMushrooms.Length == 0)
+        {
+            Dino.SendMessage("SpawnSign");
+        }
     }
     
 }

@@ -4307,6 +4307,7 @@ GameObject:
   - component: {fileID: 1897317107}
   - component: {fileID: 1897317106}
   - component: {fileID: 1897317110}
+  - component: {fileID: 1897317111}
   m_Layer: 0
   m_Name: Dino
   m_TagString: Player
@@ -4428,6 +4429,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 0
+--- !u!114 &1897317111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897317105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc5cdbf652349d43b2c6504c877415a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endSign: {fileID: 7314501259987112798, guid: 94062527a33a4ea4a8b3d8f9482f1113, type: 3}
 --- !u!4 &1922953723 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469218017646276325, guid: 4b7c9b59ef394bc4a8ab73c67368db08,
